@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+div{
+	position: absolute;
+}
+/*width, height and color of background */
+.bg{
+	width: 800px;
+	height: 600px;
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+/*attributes of beam*/
+.beam{
+	width: 1600px;
+	height: 20px;
+	background-color: #fff;
+	top: 290px;
+	left: -400px;
+}
+.d_shield{
+	background: #e15016;
+}
+/*set attributes of shield*/
+.d_shield1{
+	left: 32px;
+	width: 140px;
+	height: 346px;
+}
+.d_shield2{
+	transform: skewx(5deg);/*transform*/
+	left: 16px;
+	width: 100px;
+	height: 346px;
+}
+.d_shield3{
+	transform: skewy(15deg);/*transform*/
+	top: 265px;
+	left: 32px;
+	width: 140px;
+	height: 100px;
+}
+.d_shield4{
+	left: 172px;
+	width: 140px;
+	height: 346px;
+}
+.d_shield5{
+	transform: skewx(-5deg);
+	left: 227px;
+	width: 100px;
+	height: 346px;
+}
+.d_shield6{
+	transform: skewy(-15deg);
+	top: 265px;
+	left: 172px;
+	width: 140px;
+	height: 100px;
+}
+.d_shield7{
+	height: 20px;
+	top: 199px;
+	width: 80px;
+	left: 60px;
+}
+/*set atrributes of the orange part*/
+.l_shield{
+	background-color: #ee6812;
+}
+.l_shield1{
+	left: 172px;
+	width: 140px;
+	height: 346px;
+}
+.l_shield2{
+	transform: skewx(-5deg);
+	left: 227px;
+	width: 100px;
+	height: 363px;
+}
+.l_shield3{
+	transform: skewy(-15deg);
+	left: 172px;
+	top: 282px;
+	width: 138px;
+	height: 100px;
+}
+.l_shield4{
+	height: 43px;
+	top: 113px;
+	width: 100px;
+	left: 180px;
+}
+.l_five{
+	background-color: #ededed;
+}
+.l_five1{
+	height: 43px;
+	width: 102px;
+	left: 70px;
+	top: 70px;
+}
+.l_five2{
+	width: 46px;
+	height: 216px;
+	transform: skewx(5deg);
+	top: 70px;
+	left: 75px;
+}
+.l_five3{
+	width: 95px;
+	height: 43px;
+	left: 77px;
+	top: 156px;
+}
+.l_five4{
+	width: 87px;
+	height: 47px;
+	left: 85px;
+	top: 251px;
+	transform: skewy(15deg);
+}
+.r_five{
+	background-color: #fff;
+}
+.r_five1{
+	width: 102px;
+	height: 43px;
+	left: 172px;
+	top: 70px;
+}
+.r_five2{
+	width: 46px;
+	height: 216px;
+	transform: skewx(-5deg);
+	top: 70px;
+	left: 223px;
+}
+.r_five3{
+	height: 43px;
+	width: 95px;
+	left: 172px;
+	top: 156px;
+}
+.r_five4{
+	height: 47px;
+	width: 87px;
+	left: 172px;
+	top: 251px;
+	transform: skewy(-15deg);
+}
+img{
+	position: fixed;
+	top: 8px;
+	left: 225px;
+	width: 350px;
+	height: 110px;
+}
